@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Ratana Metanang</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/dashboard/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="dashboard/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css "
+  </head>
+
+
+  <body>
+    <!--ฟีเจอร์ navbar+sidebar
+      https://getbootstrap.com/docs/5.1/examples/dashboard/
+    โดยแบ่งออกเป็นสามส่วนด้วยกันคือ
+    1.header จะเป็นส่วนี่ใช้nav-bar ปกติทั่วไป ซึ่งใช้button ในการทำเป็นปุ่มหัวข้อหลักๆ
+    2.ส่วนของ sidebarMenu คือแถบเมนูที่ติดออกมาจากด้านข้าง และบอกตำแหน่งว่าปัจจุบันอยู่หน้าเว็ปไหนโดยการ nav-link + active
+    3.ส่วนของ main คือหน้าต่างข้อมูลหลักๆของหัวข้อเว็ปนั้นๆ
+    **ปล.ในหน้าของ abilitis ได้ใส่ฟีเจอร์แถบเปอร์เซ็นไปด้วย
+    https://getbootstrap.com/docs/5.1/components/progress/
+    <div class="progress" style="background-color : #F5E8C7;">
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" >75%</div>
+     คำสั่งก็มีตามที่เห็นในนี้เลยครับ
+     เป็นลูกเล่นของการทำเป็นเปอร์เซ็น ปรับเลขบอกเปอร์เซ็นของมัน และสี
+    
+    
+    
+    -->
+    <header class="navbar navbar-dark sticky-top  flex-md-nowrap p-0 shadow" style="background-color: #6F4C5B;">
+      <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="index.html">I'm Opor🐰</a>
+      <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+     
+      
+      </div>
+    </header>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+          <div class="position-sticky pt-3">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: #9E7777;" >
+                  <span data-feather="home"></span>
+                  Profile 💜
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="abilitis.html">
+                  <span data-feather="abilitis"></span>
+                  Abilitis
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="experiences.html">
+                  <span data-feather="experiences"></span>
+                  Experiences
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">
+                  <span data-feather="contact"></span>
+                  Contact
+                </a>
+              <!--เพิ่มMenubarตรงนี้ได้-->
+            </ul>
+        </div>
+    </nav>
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2">Ratana Metanang 🥕</h1>
+          
+        </div>
+        <br>
+        <br>
+        <br>
+        <table style="margin-left: auto;margin-right: 5%;">
+            <tr>
+                
+                <th style="width: 35%; margin-left: auto ;margin-right: auto;">
+                    
+                    <p style="text-align: center;"><img src="images/PF-modified.png" alt="OPOR" style="width: 60%;"></p>
+                        <!--crop circle images https://crop-circle.imageonline.co/-->
+                </th>
+                <th style="width: 40%; vertical-align: top;"cellspacing="10">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2 style="color: #6F4C5B;">About me</h2>
+                    <p style="font-weight: normal; text-align: justify;">I am ambitious and driven. 
+                        I thrive on challenges and constantly set goals for myself, so I have something to strive toward.
+                         I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness.
+                         I have a dream to be an artist that Who can make people enjoy my songs.</p>
+                         <br>
+                         <center><hr style="width: 40%;"></center>
+                         
+                         
+                         
+                </th>
+            </tr>
+        </table>
+</main>
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous">
+      </script><script src="dashboard.js"></script>
+  </body>
+</html>
